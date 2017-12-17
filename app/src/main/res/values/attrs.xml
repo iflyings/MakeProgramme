@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DragView">
+        <attr name="offset_left" format="dimension" />
+        <attr name="offset_top" format="dimension" />
+    </declare-styleable>
+</resources>

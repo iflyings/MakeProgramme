@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.makeprogramme.MainActivity">
+
+    <com.example.makeprogramme.DragView
+        android:id="@+id/dv_mediablock1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="11111"
+        android:gravity="center"
+        android:background="@drawable/ic_dragview_background"/>
+
+    <com.example.makeprogramme.DragView
+        android:id="@+id/dv_mediablock2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_dragview_background"
+        android:gravity="center"
+        android:text="2222"
+        app:offset_left="20dp"
+        app:offset_top="20dp" />
+
+</FrameLayout>
